@@ -1,0 +1,18 @@
+fflush(stdin);
+	system("cls");
+	
+	valorInvestimento = (maior*150)+(menor*300);
+	
+	mediaInvestimento = valorInvestimento / (maior+menor); 
+	
+	puts("--------------------Resumo do Cadastro--------------------");
+	
+	printf("Números de pessoas cadastradas: %d \n", qtdF);
+	printf("Quantidade de Homens: %d \n", homens);
+	printf("Quantidade de Mulheres: %d \n", mulheres);
+	printf("Filhos maiores de idade: %d \n", maior);
+	printf("Filhos menores de idade: %d \n", maior);
+	printf("Total de investimento: %d \n", valorInvestimento);
+	printf("Total de investimento: %2.f \n", mediaInvestimento);
+	
+	fflush(stdin);
